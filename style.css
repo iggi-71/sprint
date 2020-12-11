@@ -1,0 +1,43 @@
+.SpaceBetween {
+    color: aliceblue;
+}
+
+body{
+    font-family: Cooper;
+}
+
+.big-box img {
+    display: block;
+    margin: 0 auto;
+} 
+
+.big-box.SpaceBetween{
+    justify-content: center;
+    justify-items: center;
+}
+
+.navbar {
+    text-emphasis-color: white;
+    color: white;
+}
+
+.big-box {
+    height: 100%;
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/originals/11/3d/93/113d937e06fcdd28172766336578c87d.png");
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.navbar.style a{
+    color: wheat;
+}
