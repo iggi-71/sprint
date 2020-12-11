@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Disaster Sprint</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/Users/apple/dev/coursesT2/SPD_1.1/Sprint/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color:rgb(255, 242, 219);">
-    <!-- navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <a class="navbar-brand" href="#" style="color: white";
         >Disaster</a>
@@ -21,7 +20,7 @@
                     <a class="nav-link" href="#" style="color: white">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: white">Link</a>
+                    <a class="nav-link" href="results.html" style="color: white">Map</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -30,34 +29,206 @@
             </form>
         </div>
     </nav>
-    <!-- end of the navigation bar -->
 
-    <!-- this is the heading -->
-    <div class="Heading">
-        <h1 style="text-align: center;">Disaster Tracker</h1>
-    </div>
-    <!-- end of the heading -->
-
-    <div class="SpaceBetween">
-        <br>
-    </div>
-
-    <div class="centered">
-        <div class="big-box" style="align-items: center;">
-            <div class="container h-100">
-                <div class="row align-items-center h-100">
-                    <div class="col-6 mx-auto">
-                        <div class="jumbotron">
-                            <h2>Search for a Location</h2>
-                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+<!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 text-center">
+                <div class="centered">
+                    <div class="big-box" style="align-items: center;">
+                        <div class="container h-100">
+                            <div class="row align-items-center h-100">
+                                <div class="col-6 mx-auto">
+                                    <div class="jumbotron">
+                                        <h2 style="color: black;">Search for a Location</h2>
+                                        <div class="togetherRow">
+                                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                                            <form method="get" action="results.html">
+                                                <button type="submit" style="color: teal;" >Search</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</header>
+
+<!-- Page Content -->
+<div id="About">
+    <section class="py-5">
+        <div class="container">
+            <h2 class="font-weight-light"><strong>The Story Behind Disaster Tracker</strong></h2>
+            <br>
+            <p>People tend to forget the world and only focus on what would affect them rather than what the world is facing, I want to make people more aware of what is happening around them</p>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col"><img src="https://i.pinimg.com/originals/11/3d/93/113d937e06fcdd28172766336578c87d.png" class="rounded mx-auto d-block" width="300px"></div>
+            <div class="col"><strong>LOCATION</strong> 
+                <br>
+                <br>
+                <br>
+                <p>Somewhere in Washington</p>
+                <p>506 G St NE</p>
+                <p>Wayward Pines, WA 9884889</p>
+                <br>
+                <br>
+                <br>
+                <p><strong>PHONE NUMBER</strong></p>
+                <br>
+                <p>509-398-1020</p>
+                <br>
+                <br>
+                <br>
+                <p><strong>HOURS TO CONTACT</strong></p>
+                <br>
+                <p>8am - 5pm</p>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+
+<div class="footer">
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
     
+            <!-- Grid row -->
+            <div class="row">
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+    
+                <!-- Content -->
+                <h5 class="font-weight-bold text-uppercase mb-4">More of Us</h5>
+                <p>Here you can use rows and columns to organize your footer content.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
+                esse
+                quasi, veritatis totam voluptas nostrum.</p>
+    
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+    
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+    
+            <ul class="list-unstyled">
+                <li>
+                    <p>
+                    <a href="#!">PROJECTS</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    <a href="#!">ABOUT US</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    <a href="#!">BLOG</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    <a href="#!">AWARDS</a>
+                    </p>
+                </li>
+            </ul>
+    
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+    
+            <!-- Contact details -->
+            <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+    
+            <ul class="list-unstyled">
+                <li>
+                    <p>
+                    <i class="fas fa-home mr-3"></i> Somewhere in Washington, 506 G St NE, Wayward Pines, WA 9884889</p>
+                </li>
+                <li>
+                    <p>
+                    <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                </li>
+                <li>
+                    <p>
+                    <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                </li>
+                <li>
+                    <p>
+                    <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                </li>
+            </ul>
+    
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+    
+            <!-- Social buttons -->
+            <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+            
+            <!-- Facebook -->
+            <a type="button" class="btn-floating btn-fb">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <!-- Twitter -->
+            <a type="button" class="btn-floating btn-tw">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <!-- Google +-->
+            <a type="button" class="btn-floating btn-gplus">
+                <i class="fab fa-google-plus-g"></i>
+            </a>
+            <!-- Dribbble -->
+            <a type="button" class="btn-floating btn-dribbble">
+                <i class="fab fa-dribbble"></i>
+            </a>
+    
+            </div>
+            <!-- Grid column -->
+    
+            </div>
+            <!-- Grid row -->
+    
+        </div>
+        <!-- Footer Links -->
+    
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
 
-
+        </footer>
+        <!-- Footer -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</div>
 </body>
 </html>
+

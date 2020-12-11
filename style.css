@@ -1,43 +1,26 @@
-.SpaceBetween {
-    color: aliceblue;
-}
-
-body{
-    font-family: Cooper;
-}
-
-.big-box img {
-    display: block;
-    margin: 0 auto;
-} 
-
-.big-box.SpaceBetween{
-    justify-content: center;
-    justify-items: center;
-}
-
-.navbar {
-    text-emphasis-color: white;
-    color: white;
-}
-
-.big-box {
-    height: 100%;
-    display: flex;
-    width: 1000px;
-    justify-content: center;
-    align-items: center;
+.masthead {
+    height: 100vh;
+    min-height: 500px;
     background-image: url("https://i.pinimg.com/originals/11/3d/93/113d937e06fcdd28172766336578c87d.png");
+    background-size: cover;
+    color: aliceblue;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.centered {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -50%);
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
 }
 
-.navbar.style a{
-    color: wheat;
+.footer{
+    background-color: lightgray;
+}
+
+.togetherRow{
+display: flex;
+}
+
+#red{
+    color: red;
 }
